@@ -1,0 +1,21 @@
+{
+  "name": "jest-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "19.0.0"
+  },
+  "jest": {
+    "roots": [
+      "tests"
+    ],
+    "testRegex": "-test.js",
+    "collectCoverage": true
+  }
+}
